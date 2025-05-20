@@ -52,7 +52,7 @@ int prefixEvaluation(string prefix)
     int top = -1;
     int operand1, operand2;
 
-    for(int i = 0; i<n; i--)
+    for(int i = 0; i<n; i++)
     {
         if(prefix[i] >= '0' && prefix[i] <= '9')
         {
